@@ -1,3 +1,5 @@
-pool: MyAgentPool
-steps:
-- bash: echo hello world
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '/home/aerben/mslearn-tailspin-spacegame-web/'
+    arguments: '--configuration Release'
