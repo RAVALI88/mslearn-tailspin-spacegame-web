@@ -1,5 +1,5 @@
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: '/home/aerben/mslearn-tailspin-spacegame-web/'
+    projects: '/home/aerben/mslearn-tailspin-spacegame-web'
     arguments: '--configuration Release'
